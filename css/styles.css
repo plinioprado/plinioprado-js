@@ -136,17 +136,17 @@ header img {
 /* footer */
 
 footer {
-  color: #F5F5F5;
+  color: #E8E8E8;
   background-color: #024153;
   padding-bottom: 1em;
 }
 
 footer a:link {
-  color: #F5F5F5;
+  color: #E8E8E8;
 }
 
 footer a:visited {
- color: #F5F5F5;
+ color: #E8E8E8;
 }
 
 footer a:hover {
