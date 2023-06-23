@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+ color: #000;
+}
+
+a:hover {
+  color: #777;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  margin-left: 5%;
+  white-space: nowrap;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.container-fluid {
+  padding-top: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+header .container-fluid {
+  margin-top: 0s;
+  padding-top: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* paralax */
+
+.paralax {
+  background-image: url("../images/paralax_bg.jpg");
+  height: 12em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 1.25em;
+  color: #fff;
+}
+
+.paralax h3 {
+  margin-top: 1em;
+}
+
+/* header */
+
+header a:link {
+  color: #777;
+}
+
+header a:visited {
+ color: #777;
+}
+
+header a:hover {
+  color: #000;
+}
+
+header img {
+  width: 3em;
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-nav {
+      width: 100%;
+      justify-content: flex-end;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  .navbar-nav {
+    border-top-style: solid;
+    border-color: #e7e7e7;
+  }
+
+  .navbar-nav li {
+    background-color: #f5f5f5;
+    margin: 1%;
+    padding-left: 2%;
+  }
+
+  .paralax {
+    height: 10em;
+  }
+
+}
+
+/* footer */
+
+footer {
+  color: #F5F5F5;
+  background-color: #024153;
+  padding-bottom: 1em;
+}
+
+footer a:link {
+  color: #F5F5F5;
+}
+
+footer a:visited {
+ color: #F5F5F5;
+}
+
+footer a:hover {
+  color: #808080;
+}
+
+footer p {
+  margin-top: 0 !important;
+}
+
+footer img {
+  width: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+/* content */
+
+.content {
+  padding-bottom: 1em;
+}
+
+.prj-right {
+  float: right;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.msg {
+  text-align: center;
+}
