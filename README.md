@@ -1,3 +1,5 @@
 # Plinio Prado website
 
-Basic site using plain html, bootstrap and javascript
+Basic site using plain html, bootstrap and javascript for <http://www.plinioprado.com>.
+
+Refactored from the previous plinioprado-html to use Bootstrap 5 and split the content in muliple pages.
