@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto-Regular.ttf);
+  src: url(/fonts/Roboto-Light.ttf);
 }
 
 body {
@@ -88,16 +88,20 @@ header .container-fluid {
 
 /* header */
 
-header a:link {
+.nav-link:link {
   color: #777;
 }
 
-header a:visited {
+.nav-link:visited {
  color: #777;
 }
 
-header a:hover {
-  color: #000;
+.nav-link:hover {
+  color: #02aed6;
+}
+
+.navbar-nav .nav-link.active {
+  color: #337ab7;
 }
 
 header img {
@@ -191,7 +195,13 @@ footer img {
 .prj-right {
   float: right;
   width: 30%;
+  margin-top: 1em;
   margin-left: 5%;
+  margin-bottom: 1em;
+}
+
+.prj-right-immaginare {
+  width: 25%;
 }
 
 .msg {
