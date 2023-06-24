@@ -64,11 +64,11 @@ header .container-fluid {
 
 .paralax {
   background-image: url("../images/paralax_bg.jpg");
-  height: 12em;
+  height: 14em;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   font-size: 1.25em;
   color: #fff;
   display: flex;
@@ -144,7 +144,7 @@ header img {
   }
 
   .paralax {
-    height: 10em;
+    height: 12em;
   }
 
   .paralax h2 {
