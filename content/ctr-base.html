@@ -20,17 +20,37 @@
 
   <h3>Development Notes</h3>
 
+  <p><a href="#/home">Return</a>.</p>
+
   <p>Rewriting 6 years old code led to some interesting notes:</p>
-  <p>React Hooks are fine. However, using only functional components did make a difference in how clean the cod is. Classes were not missed as JavaScript is not a real OOP language.</p>
-  <p>Replacing Redux with React context/dispatch hooks is more a good alternative than an evolution. Redux is still a valid option, actually the final JavaScript code has a lot of similarities (not a surprise). Still, the dependency elimination was a substantial benefit.</p>
+
+  <p><strong>Implementing React hooks</strong></p>
+
+  <p>React Hooks are fine, just need to learn them. However, using only functional components did make a difference in how clean the cod is. Classes were not missed as JavaScript is not a real OOP language.</p>
+
+  <p><strong>Replacing Redux with React context/dispatch hooks</strong></p>
+  <p>It's more a good alternative than an evolution. Redux is still a valid option and the final JavaScript code (especially in the reducer) has a lot of similarities (not a surprise). Still, the dependency elimination was appreciated.</p>
   <p>Adopting the latest version of most features was usually simple. Just a review of the documentation for the latest coding and dependencies. Routing was an exception. In addition to version compatibility issues, dropping Redux and using hooks required an adjustment on how to code it which took time. There is the benefit of vast and good documentation showing multiple ways to use it for your app, but it has a cost in time.</p>
+
+  <p><strong>Replacing older versions of Bootstrap by 5</strong></p>
+  
   <p>Bootstrap v5 no longer needing JQuery is great. But later it was fully replaced by react-bootstrap which works well.</p>
-  <p>There are visible simplifications in HTML/CSS coding due to no longer needing t support. But not much need to care about this when using create-react-app.</p>
-  <p>In the plain Javascript, the main change for the latest coding was async/await which already existed but was not widespread. It was good to use the newest syntax and it is better, but the previous version worked as well as it's the same Pormise under the hood.</p>
+
+  <p><strong>Upgrade for react-router version 5+</strong></p>
+  <p>React router has good documentation but still making our own needs work takes time. There are dependency conflict issues and eliminating redux makes the way it is implemented to be different.</p>
+
+  <p><strong>Plain JavaScript updates</strong></p>
+  
+  <p>The main change for the latest coding was async/await which already existed but was not widespread. It was good to use the newest syntax and it is better, but the previous version worked as well as it's the same Promise under the hood.</p>
   <p>Unlike the React client, the Node server just has to be correctly coded and provide the right responses to the right requests using the given SQL database. This is because React is a dominant client but Node is one of the good options for back-end.</p>
-  <p>The back-end focus was the implementation of a response composed of "data" and its display "format" because in an application the core components will require custom made coding, but there is always a  swarm of auxiliary tables flying around them that shouldn't take much time to just define, add and move on.</p>
-  <p>Still in the "format", there are variations in the naming we usually see and remember for the properties used to code data validation. like "mandatory" vs. "required" vs. "notNull". Here they evolved to more strict following the HTML.</p>
-  <p>Login and authentication in this POC was kept the minimum that allows to set access to different features according to the user role.</p>
+
+  <p><strong>Reusable components using data + format responses</strong></p>
+  
+  <p>The back-end focus was the implementation of a response composed of "data" and its display "format" because in an application the core components will require custom-made coding, but there is always a swarm of auxiliary tables flying around them that shouldn't take much time to just define, add and move on.</p>
+  <p>Regarding "format" naming, there are variations in what we are used to seeing for the properties used to code data validation. like "mandatory" vs. "required" vs. "notNull". Here they evolved to more strict following the HTML tag attributes.</p>
+
+  <p><strong>No longer support for Internet Explorer</strong></p>
+  <p>There are visible simplifications in HTML/CSS coding due to no longer needing to support. But not much need to care about this when using create-react-app.</p>
 
   <p><a href="#/home">Return</a>.</p>
 </article>
