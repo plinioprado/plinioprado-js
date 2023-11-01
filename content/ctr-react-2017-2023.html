@@ -1,0 +1,32 @@
+<article class="container-fluid" id="content-home">
+  <h2>Differences between a React implementation in 2017 and 2023</h2>
+
+  <p><a href="#/home">Return</a>.</p>
+
+  <h3>Eliminating React classes and adopting hooks</h3>
+  <p>Hooks were introduced in Feb/19 (V16.8). The React website has ample documentation of how this replacement is beneficial. They required to learn a completely new coding, fortunately there is good documentation. But once learned, the 80% (of what we use) / 20% (of what exists) applies here, they work well.</p>
+  <p>They did make a difference in how clean the code is. And as a personal note I was never a JavasCript fan ar this is not an OOP driven language.</p>
+
+  <h3>Replacing Redux with React context/dispatch hooks</h3>
+  <p>It's more a good alternative than an evolution. Redux is still a valid option.</p>
+  <p>The implementation of React context is tricky, but as was Redux. As happens often in React and coding documentation in general, there is a lot of good "official" documentation and several uses, but they are the basics and you need to apply it to your more complex use. So then you go to a lot of material produced by coders that reflect their approach until you figure out a working and clean approach(es) for you to adopt.</p>
+  <p>The JavaScript code of the React reducer is very similar to Redux. Not a surprise as it's plain JavaScript handling the same concept. Just had to get a good way where the Components would hook into Context and Context into Dispatch. 
+  <p>Still.no matter how a lot of the coding is similar and Redux works well, the dependency elimination was appreciated. As Hooks in general, it cost a lot of time, but not a lot of headaches and the benefit paid off.</p>  
+  <p>Adopting the latest version of most features was usually simple. Just a review of the documentation for the latest coding and dependencies. Routing was an exception. In addition to version compatibility issues, dropping Redux and using hooks required an adjustment on how to code it which took time. There is the benefit of vast and good documentation showing multiple ways to use it for your app, but it has a cost in time.</p>
+
+  <h3>Replacing older versions of Bootstrap by 5</h3>
+  <p>Bootstrap v5 no longer needing JQuery is great. But later it was fully replaced by react-bootstrap which works well. Again there is a learning curve but worthwhile.</p>
+
+  <h3>Upgrade for react-router version 5+</h3>
+  <p>The opposite of Hooks. The coding is pretty much the same (just a couple of new hooks), but the breaking changes were the issue.</p>
+  <p>They came in Mar/2015 and created not only substantial dependency conflict issues, rect router always had some, but developer materials may or may not work in the new versus setup.</p>
+  <p>A small complication is that the old implementation may be using the routing in redux so moving to have it without redux is another adaptation.</p>
+  <p>However, sooner or later you find a working setting up and the similar coding makes it no longer creates problems.</p>
+
+  <h3>Plain JavaScript updates</h3>
+  <p>JavaScript itself did not change. Just, at the time, some new ES6 features were not commonly used especially to avoid problems in Internet Explorer. So there will be some refactoring to better code here and there.</p>
+  <p>In this project, it was the async/await. It uses the same Promise under the hood so it's the same logic just sligthly differently.</p>
+  <p>The elimination of support for Internet Explorer also brought simplifications in HTML/CSS coding, but not much of a concern when using create-react-app.</p>
+
+  <p><a href="#/home">Return</a>.</p>
+</article>
